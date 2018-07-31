@@ -18,31 +18,31 @@ File .json buat translasi Indonesianya Slay The Spire. Aturan mainnya:
 2. Formatting tag dkk:
     - Teks biasanya berwarna putih. Tetapi kalau ada kata kunci penting atau hal penting lainnya, kamu bisa mewarnai teks dengan
     menggunakan tag: #y, #r, #g, #b, #p. Sesuai urutan: Yellow-Kuning, Red-Merah, Green-Hijau, Blue-Biru, dan Purple-Ungu (Warna ungu jangan dipakai buat teks kartu, yo. Khusus buat event)
-    Contoh: "#yOi, #yKuning! Satu tag cuma bisa #rmewarnai #rsatu #kata. #pAwas #pspasi."
+    <br>Contoh: "#yOi, #yKuning! Satu tag cuma bisa #rmewarnai #rsatu #kata. #pAwas #pspasi."
 
     - Khusus di event dan dialog, kamu bisa menjepit kata dengan ~ untuk efek gelombang (naik turun), atau @ untuk efek getar-getar.
-    EXAMPLE: "@Jangan@ @lupa@ @tiap@ @kata.@ Bisa juga tiap huruf. ~W~ ~u~ ~u~."
+    <br>Contoh: `@Jangan@ @lupa@ @tiap@ @kata.@ Bisa juga tiap huruf. ~W~ ~u~ ~u~.`
 
     - Kombinasi tag warna dan tag efek bisa digabung. Tag warna harus diketik lebih dulu (di kiri).
-    EXAMPLE: "#y@DUAR@ #y@DUAR@"
+    <br>Contoh: `#y@DUAR@ #y@DUAR@`
 
     - Ingat, banyak teks kartu yang harus menampilkan jumlah damage, blok, dsb. Tagnya: !D! untuk damage, !B! untuk blok, dan !M! untuk lain-lain (miscellaneous).
-    EXAMPLE: "Timbulkan !D! damage."
-    EXAMPLE: "Peroleh !B! blok."
-    EXAMPLE2: "Ambil !M! kartu."
+    <br>Contoh: `Timbulkan !D! damage.`
+    <br>Contoh: `Peroleh !B! blok.`
+    <br>Contoh: `Ambil !M! kartu.`
 
     - Kata Kunci yang ada di file keywords.json wajib dikapitalisasi, terutama di dalam deskripsi kartu, bakat (power), atau pusaka (relic).
-    EXAMPLE: "Timbulkan 2 Letih (Vulnerable)." (Lemah letih lesu - Weak VUln Frail)
+    <br>Contoh: `Timbulkan 2 Letih (Vulnerable).` (Lemah letih lesu - Weak VUln Frail)
 
     - Tag NL artinya baris baru. Ibarat tombol "Enter" kalau mengetik biasa. Gunakan baris baru supaya
-    teks Indonesia yang panjang-panjang enak dibaca, atau untuk memisahkan
-    "quote quote"
-    penting. Tag NL harus dispasi di kedua sisi.
-    EXAMPLE: "Halo. NL Saya Bejo."
+    <br>teks Indonesia yang panjang-panjang enak dibaca, atau untuk memisahkan
+    <br>"quote quote"
+    <br>penting. Tag NL harus dispasi di kedua sisi.
+    <br>Contoh: `Halo. NL Saya Bejo.`
 
     - Terkadang, kode untuk deskripsi di filenya kelihatan terpotong-potong. 
-    Tenang saja, itu memang disengaja. Developernya perlu memasukkan nilai tertentu di antara potongan teksnya.
-    Contoh:
-    "Balonku ada #b",
-    ", rupa-rupa warnanya."
-    Akan kelihatan jadi: "Balonku ada #b5, rupa-rupa warnanya" di dalam gamenya.
+    <br>Tenang saja, itu memang disengaja. Developernya perlu memasukkan nilai tertentu di antara potongan teksnya.
+    <br>Contoh:
+    <br>"`Balonku ada #b`,"
+    <br>"`, rupa-rupa warnanya.`"
+    <br>Akan kelihatan jadi: "Balonku ada #b5, rupa-rupa warnanya" di dalam gamenya.
