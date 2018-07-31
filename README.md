@@ -1,5 +1,6 @@
 # SlayTheSpire-Translasi-Indo
-File .json buat translasi Indonesianya Slay The Spire. Aturan mainnya:
+File .json buat translasi Indonesianya Slay The Spire. Kalau mau edit, disarankan pakai program sejenis Notepad, [Notepad++](https://notepad-plus-plus.org/), [Atom](https://atom.io/), [Sublime Text](https://www.sublimetext.com/), dan sejenisnya.
+<br>Aturan mainnya:
 
 1. Tipe file di sini adalah .json. Di dalamnya ada bagian yang bernama "fields." Jangan ditranslate!
     <br>Field adalah nama yang digunakan oleh gamenya untuk mengidentifikasi teks translasi. Kalau ditranslate, gamenya bisa bingung.
